@@ -1,0 +1,16 @@
+@media (max-width:676px) {
+    .mena-container, .members-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mena-photo, .mena-bio {
+        margin: auto;
+    }
+
+    .members-container > .member-name {
+        margin: auto;
+        width: 100%;
+        padding: 0 40px;
+    }
+}

@@ -1,0 +1,25 @@
+
+
+@media (max-width:676px) {
+    .block .home-header {
+        position: absolute;
+    }
+
+    .hero-area {
+        height: 144vh;
+    }
+
+    .hero-area .container {
+        margin-top: -23rem; 
+      }
+
+      .navigation {
+          display: flex;
+          justify-content: end;
+      }
+
+      .navbar-nav .nav-link {
+          color: black;
+      }
+    
+}

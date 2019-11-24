@@ -1,0 +1,503 @@
+.custommenu a {
+  color: #666;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.custommenu li a {
+font-size: 24px;
+font-weight: bold;
+margin: 0.2em;
+}
+
+.custommenu li a:hover,
+.custommenu li a:focus {
+background: none;
+}
+
+.menu li a {
+color: black;
+font-size: 24px; 
+} 
+
+.logo-sizing {
+height: auto;
+width: 100%;
+}
+
+.navbar-nav { 
+flex-direction: row;
+font-size: 25px;
+}
+
+.nav-link {
+font-size: 24px;
+}
+
+
+@media (max-width: 767px) {
+.navbar-toggleable-sm .navbar-nav .nav-item {
+margin: auto;
+}
+
+
+
+}
+
+@media (min-width: 768px) {
+.navbar-toggleable-md .navbar-nav .nav-item {
+  margin-left: auto;
+}
+.block {
+  padding-top: 120px;
+}
+}
+
+@media (min-width: 992px) {
+.navbar-toggleable-lg .navbar-nav .nav-item {
+  margin-left: 1rem;
+}
+.block {
+  padding-top: 120px;
+}
+}
+
+@media (min-width: 1200px) {
+.navbar-toggleable-xl .navbar-nav .nav-item {
+  margin-left: 1rem;
+}
+
+}
+
+
+/*--
+  hero-area start
+--*/
+
+.st-background {
+background-color: rgba(26,175,180,0.65);
+border-radius: 15px;
+padding: 1rem;
+}
+
+/*--
+  .pages-hero-area start
+--*/
+
+.bg-gray {
+background: #f8f8f8;
+}
+
+.pages-hero-area {
+background-size: cover;
+background-attachment: fixed;
+height: 50vh;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.pages-hero-area h1 {
+color: #fff;
+text-transform: uppercase;
+font-weight: bold;
+text-align: center;
+font-size: 10vh 5vw;
+
+}
+
+@media (min-width: 768px) {
+.pages-hero-area h1 {
+  font-size: 10vh;
+}
+}
+
+.pages-hero-area p {
+color: #fff;
+font-size: 20px;
+line-height: 1.3;
+}
+
+.pages-bg-layer {
+background-color: rgba(26,175,180,0.7);
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+/*--
+mission start
+--*/
+
+.text-left {
+text-align: left;
+}
+
+.about-flex {
+display: flex;
+flex-direction: row;
+}
+
+/*=================================================================
+  Our Team
+==================================================================*/
+.team-member {
+  background-color: white;
+  color: black;
+  margin: auto;
+  width: 80%;
+  text-align: center;
+}
+
+.team-member:hover .mask {
+  cursor: pointer;
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: rotateY(0deg) scale(1, 1);
+  transform: rotateY(0deg) scale(1, 1);
+}
+
+.member-photo {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .member-photo {
+    text-align: center;
+  }
+}
+
+.member-photo:hover img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+
+
+
+.member-photo img {
+  transition: all 0.4s ease 0s;
+}
+
+@media (max-width: 768px) {
+  .member-photo img {
+    display: inline-block;
+  }
+}
+
+.member-photo .mask {
+  background-color: rgba(87, 203, 204, 0.7);
+  position: absolute;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  transition: all .5s ease-out 0s;
+  -webkit-transform: rotateY(180deg) scale(0.5, 0.5);
+  transform: rotateY(180deg) scale(0.5, 0.5);
+}
+
+.member-photo .mask ul {
+  text-align: center;
+  position: relative;
+  top: 125px;
+}
+
+.member-photo .mask ul li a {
+  border: 1px solid #fff;
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  width: 35px;
+}
+
+.member-photo .mask ul li a:hover {
+  background-color: #fff;
+  color: #57cbcc;
+  border: 1px solid transparent;
+}
+
+.member-meta {
+  padding: 15px;
+}
+
+.member-meta h4 {
+  margin: 0 0 5px;
+}
+
+.member-meta span {
+  font-size: 12px;
+}
+
+.tg-bg {
+  background: #4c4c4c; 
+  width: 100%;
+}
+
+.tg-title {
+  text-align: center;
+  color: #f8f8f8;
+  padding: 5px;
+  background: #4c4c4c
+}
+
+.tg-title h1 {
+  color: #f8f8f8
+}
+
+  .tg-flex {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    width: 100%;
+    background: #1AAFB4;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+  }
+
+.tg-no-bottom-padding {
+  padding-bottom: 0px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/*=================================================================
+  Map Frame
+==================================================================*/
+
+.map {
+  width: 100%;
+}
+
+/*=================================================================
+  Questionnaire styling (making fields appear)
+==================================================================*/
+
+.reveal-if-active {
+  opacity: 0;
+  max-height: 0;
+  display: none;
+}
+
+input[type="radio"]:checked ~ .reveal-if-active,
+input[type="checkbox"]:checked ~ .reveal-if-active {
+  opacity: 1;
+  max-height: 100px; /* little bit of a magic number :( */
+  display: block;
+}
+
+/*=================================================================
+Patient info portal styling
+=================================================================*/
+
+.link-boxes {
+  border: 1px solid darkblue;
+  border-radius: 10px;
+  padding: 30 30 0 30;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link-boxes:hover {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  animation-name: example;
+  animation-duration: 0.25s;
+  text-decoration: none;  
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+/*=================================================================
+Patient info portal styling
+=================================================================*/
+
+.trial-info-boxes {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+/*=================================================================
+bulleted list styling
+=================================================================*/
+
+.bullet-list h1 { 
+margin: 3px;
+margin-bottom: 30px;
+text-align: center;
+}
+
+.bullet-list ul li {
+  margin: 10px;
+  font-size: large;
+  text-align: left;
+  padding-top: 9px;
+}
+
+.bullet-list i {
+  color: #64C7CB;
+  font-size: 9px;
+}
+
+/*=================================================================
+no-link box styling
+=================================================================*/
+@media (max-width: 768px) {
+  .no-link-boxes {
+    border: 1px solid darkblue;
+    border-radius: 10px;
+    padding: 2em;
+    height: 200px;
+    background: white;
+    width: 100%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 768px) {
+  .no-link-boxes {
+    border: 1px solid darkblue;
+    border-radius: 10px;
+    padding: 3em;
+    height: 200px;
+    background: white;
+    max-width: 20%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    margin-left: 5px;
+    margin-right: 5px;
+
+  }
+}
+
+
+/*=================================================================
+Misc
+=================================================================*/
+
+@media (min-width: 1600px) { 
+	.hero-area .container {
+		max-width: 100%;
+		width: 100%;
+		margin-right: auto;
+		margin-left: 10%;
+		padding-right: 15px;
+		padding-left: 15px;	
+	}
+}
+
+.form-container {
+  margin: 2em;
+  padding: 2em;
+  border: solid 2px blue;
+  border-radius: 15px;
+  box-shadow: -3px 3px 5px #888888;
+}
+
+.form-field {
+  margin: 1em;
+  padding: 1em;
+}
+
+/*=================================================================
+  Service section
+==================================================================*/
+
+.service_heading {
+  margin: auto;
+  background: beige;
+  text-align: center;
+  padding: 1vh;
+}
+
+.service_heading h2 {
+  color: black;
+  font-size: 3rem;
+}
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.resource-grid > .grid-item  {
+  padding-top: 25px;
+}
+
+.resource-grid > .grid-item i {
+  font-size: 3em;
+}
+
+.resource-grid > .grid-item p {
+  padding: 0px 10px 0px 10px;
+}
+
+@media (max-width: 600px) {
+  .resource-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    }
+
+  .no-link-boxes > .block {
+    display: flex;
+  }
+
+
+}
+
+.mena-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.mena-photo {
+  margin-left: 150px;
+}
+
+.mena-bio {
+  padding: 50px 25px;
+  margin-right: 150px;
+  text-align: justify;
+}
+
+.mena-bio h4 {
+  text-align: center;
+}
+
+.members-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 35px;
+}
+
+.member-name {
+  margin: auto;
+  width: 20%;
+  height: 55vh;
+
+}
+
+
+
+.member-name p {
+  height: 100px;
+  text-align: justify;
+}
