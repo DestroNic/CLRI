@@ -495,7 +495,11 @@ Misc
 
 }
 
-
+.menu-position {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
 
 .member-name p {
   height: 100px;
