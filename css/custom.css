@@ -49,17 +49,14 @@ margin: auto;
   margin-left: auto;
 }
 .block {
-  padding-top: 120px;
-}
+
 }
 
 @media (min-width: 992px) {
 .navbar-toggleable-lg .navbar-nav .nav-item {
   margin-left: 1rem;
 }
-.block {
-  padding-top: 120px;
-}
+
 }
 
 @media (min-width: 1200px) {
@@ -304,7 +301,7 @@ Patient info portal styling
 =================================================================*/
 
 .link-boxes {
-  border: 1px solid darkblue;
+  padding-top: 25px;
   border-radius: 10px;
   padding: 30 30 0 30;
   background: white;
@@ -494,11 +491,16 @@ Misc
   height: 55vh;
 
 }
-
+/*
 .menu-position {
   display: flex;
   justify-content: flex-end;
-  width: 100%;
+  width: 90%;
+  position: absolute;
+}*/
+
+.menu-content a {
+  color: #21201d;
 }
 
 .member-name p {

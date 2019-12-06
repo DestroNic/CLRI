@@ -19,5 +19,11 @@
       .navbar-nav .nav-link {
           color: black;
       }
+
+      .menu-position {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+      }
     
 }
