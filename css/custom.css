@@ -48,7 +48,6 @@ margin: auto;
 .navbar-toggleable-md .navbar-nav .nav-item {
   margin-left: auto;
 }
-.block {
 
 }
 
@@ -467,6 +466,7 @@ Misc
 
 .mena-photo {
   margin-left: 150px;
+  padding-top: 55px;
 }
 
 .mena-bio {
@@ -475,21 +475,28 @@ Misc
   text-align: justify;
 }
 
-.mena-bio h4 {
+.mena-bio h4, h5 {
   text-align: center;
 }
+
+
 
 .members-container {
   display: flex;
   justify-content: space-evenly;
   padding-top: 35px;
+  flex-wrap: wrap;
 }
 
 .member-name {
   margin: auto;
   width: 20%;
-  height: 55vh;
-
+  height: 75vh;
+  flex-basis: 340px;
+  border: solid 1px white;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 15px;
 }
 /*
 .menu-position {
